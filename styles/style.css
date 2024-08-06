@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+main {
+    box-sizing: content-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.content-section_theme_dark {
+    color: #F5F5F5;
+    background-color: #131313;
+}
+
+.content-section_theme_bright {
+    color: #131313;
+    background-color: #FEE42A;
+}
+
+.header {
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.header__logo {
+    display: block;
+    width: 78px;
+}
+
+.header__menu-list {
+    list-style: none;
+}
+
+.header__menu-item {
+    font-size: 16px;
+    line-height: 19.2px;
+    color:#F5F5F5;
+}
+
+.header__menu-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.header__menu-link {
+    color: inherit;
+}
+
+.header__menu-item_active .header__menu-link {
+    text-decoration: none;
+}
+
+.cover {
+    padding: 7px 24px 32px 20px;
+}
+
+.intro {
+    padding: 30px 20px 38px;
+}
+
+.reasons {
+    padding: 40px 20px;
+}
+
+.how-to {
+    padding: 40px 20px 60px;
+} 
+
+.footer {
+    padding: 20px;
+}
