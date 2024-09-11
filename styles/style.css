@@ -101,14 +101,161 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     padding: 30px 20px 38px;
 }
 
+.intro__heading {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #CCC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.intro__title {
+
+} 
+
+.intro__date {
+    white-space: nowrap;
+}
+
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .reasons {
     padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-section__subtitle {
+    font-family: 'EB Garamond', Helvetica;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 115%;
+}
+
+.content-section__introduction {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+.content-section__list-item {
+
+}
+
+.content-section__list-accent {
+    font-weight: 700;
 }
 
 .how-to {
     padding: 40px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 } 
+
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+}
+
+.card {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.card_theme_dark {
+    color: #F5F5F5;
+    background-color: #343434;
+}
+
+.card_theme_bright {
+    color: #131313;
+    background-color: #FEE42A;
+}
+
+.card_text-only {
+
+}
+
+.card__author {
+
+}
+
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card__author-name {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 0%;
+}
+
+card__content {
+
+}
+
+.card__title {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0%;
+}
+
+.card__text {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+}
 
 .footer {
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #F5F5F5;
+    background-color: #131313;
+    border-top: 1px solid rgb(254, 228, 42);
+}
+
+.footer__copy {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 0%;
+}
+
+.footer__links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0%;
 }
